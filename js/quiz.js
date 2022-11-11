@@ -59,6 +59,8 @@ if ( correct === 5 ) {
 main.innerHTML = `
   <h2> You got ${correct} out of 5 questions Correct.</h2>
   <p> Rank earned: <strong>${rank}</strong></p>
+  <br>
+  <h2>Answers:</h2>
   <ul>
     <li>5</li>
     <li>Derrick Thomas</li>
