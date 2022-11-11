@@ -15,24 +15,24 @@ const main = document.querySelector('main');
    - Store each answer in a variable
    - Keep track of the number of correct answers
 */
-const answerOne = prompt("What city did the Commanders play in before moving to Washington?");
-if (answerOne.toUpperCase() === 'BOSTON' ) {
+const answerOne = prompt("How many time did Dan marino lead the league in passing yards?(answer in number)");
+if (answerOne.toUpperCase() === '5' ) {
   correct += 1;
 }
-const answerTwo = prompt("What team won the first ever Super Bowl?");
-if (answerTwo.toUpperCase() === 'GREEN BAY' ) {
+const answerTwo = prompt("Who holds the NFL record of most sacks in a game with 7?");
+if (answerTwo.toUpperCase() === 'Derrick Thomas' ) {
   correct += 1;
 }
-const answerThree = prompt("Name one State that has three NFL teams?");
-if (answerThree.toUpperCase() === 'FLORIDA' || 'CALIFORNIA' ) {
+const answerThree = prompt("Who holds the NFL record for most rushing TD's in a half");
+if (answerThree.toUpperCase() === 'Shaun Alexander' ) {
   correct += 1;
 }
-const answerFour = prompt("What team brought an end to the Miami dolphiins perfect season?");
-if (answerFour.toUpperCase() === 'COWBOYS' ) {
+const answerFour = prompt("What QB has the most 300+ passing games of all time?");
+if (answerFour.toUpperCase() === 'Drew Brees' ) {
   correct += 1;
 }
-const answerFive = prompt("What team has played the Super Bowl in thier home stadium?");
-if (answerFive.toUpperCase() === 'TAMPA BAY' || 'BUCCANEERS' ) {
+const answerFive = prompt("What team has never beaten the Philadelphia Eagles?");
+if (answerFive.toUpperCase() === 'Jets' ) {
   correct += 1;
 }
 
@@ -59,6 +59,13 @@ if ( correct === 5 ) {
 main.innerHTML = `
   <h2> You got ${correct} out of 5 questions Correct.</h2>
   <p> Rank earned: <strong>${rank}</strong></p>
+  <ul>
+    <li>5</li>
+    <li>Derrick Thomas</li>
+    <li>Shaun Alexander</li>
+    <li>Drew Brees</li>
+    <li>Jets</li>
+  </ul>
 `;
 
 
