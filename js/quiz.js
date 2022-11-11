@@ -20,19 +20,19 @@ if (answerOne.toUpperCase() === '5' ) {
   correct += 1;
 }
 const answerTwo = prompt("Who holds the NFL record of most sacks in a game with 7?");
-if (answerTwo.toUpperCase() === 'Derrick Thomas' ) {
+if (answerTwo.toUpperCase() === 'DERRICK THOMAS' ) {
   correct += 1;
 }
 const answerThree = prompt("Who holds the NFL record for most rushing TD's in a half");
-if (answerThree.toUpperCase() === 'Shaun Alexander' ) {
+if (answerThree.toUpperCase() === 'SHAUN ALEXANDER' ) {
   correct += 1;
 }
 const answerFour = prompt("What QB has the most 300+ passing games of all time?");
-if (answerFour.toUpperCase() === 'Drew Brees' ) {
+if (answerFour.toUpperCase() === 'DREW BREES' ) {
   correct += 1;
 }
 const answerFive = prompt("What team has never beaten the Philadelphia Eagles?");
-if (answerFive.toUpperCase() === 'Jets' ) {
+if (answerFive.toUpperCase() === 'JETS' ) {
   correct += 1;
 }
 
