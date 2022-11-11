@@ -20,19 +20,19 @@ if (answerOne.toUpperCase() === 'BOSTON' ) {
   correct += 1;
 }
 const answerTwo = prompt("What team won the first ever Super Bowl?");
-if (answerOne.toUpperCase() === 'GREEN BAY' ) {
+if (answerTwo.toUpperCase() === 'GREEN BAY' ) {
   correct += 1;
 }
 const answerThree = prompt("Name one State that has three NFL teams?");
-if (answerOne.toUpperCase() === 'FLORIDA' || 'CALIFORNIA' ) {
+if (answerThree.toUpperCase() === 'FLORIDA' || 'CALIFORNIA' ) {
   correct += 1;
 }
 const answerFour = prompt("What team brought an end to the Miami dolphiins perfect season?");
-if (answerOne.toUpperCase() === 'COWBOYS' ) {
+if (answerFour.toUpperCase() === 'COWBOYS' ) {
   correct += 1;
 }
 const answerFive = prompt("What team has played the Super Bowl in thier home stadium?");
-if (answerOne.toUpperCase() === 'TAMPA BAY' || 'BUCCANEERS' ) {
+if (answerFive.toUpperCase() === 'TAMPA BAY' || 'BUCCANEERS' ) {
   correct += 1;
 }
 
