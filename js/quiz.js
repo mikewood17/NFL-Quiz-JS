@@ -16,7 +16,7 @@ const main = document.querySelector('main');
    - Keep track of the number of correct answers
 */
 const answerOne = prompt("How many time did Dan marino lead the league in passing yards?(answer in number)");
-if (answerOne.toUpperCase() === '5' ) {
+if (answerOne === '5' ) {
   correct += 1;
 }
 const answerTwo = prompt("Who holds the NFL record of most sacks in a game with 7?");
